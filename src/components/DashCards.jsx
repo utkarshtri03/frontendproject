@@ -4,7 +4,7 @@ const DashCards = ({ money, heading, bg1, imgs, percent, dropdown }) => {
   return (
     <div className="bg-white rounded-xl w-full  lg:w-[200px] h-28 p-5 relative border border-[#E0E0E0] shadow-lg ">
       <div
-        className={`absolute top-3 left-5 rounded-full bg-${bg1} h-7 w-7 flex justify-center items-center  `}
+        className={`absolute top-3 left-5 rounded-full ${bg1} h-7 w-7 flex justify-center items-center  `}
       >
         <img src={imgs} alt="" />
       </div>
